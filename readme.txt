@@ -1,9 +1,5 @@
-For running the ALS matrix factorization algorithm 
-step 1: Load the given datasets into the cluster 
-step 2: begin the spark shell
-step 3: copy paste the given code into the console and view the results
-
-For the Neighborhood model
-Step 1: Import the given maven project into eclipse
-step 2: assign the given user id for which we would like to view the recommendations
-Step 3 :run the code in eclipse
+This project repo consists of Yelp Recommender System for Restaurants. 
+Used two methods Neighborhood Model and Latent factor model of Collaborative Filtering for our Recommender System.
+Root mean squared error(RMSE) metric is used to see know how close the prediction ratings are to the true ratings
+Planned to split the data on 80:20 ratio for Training and Test Data and run 5 iteration RMSE.
+Spark Programming using Scala and Java are used to build the system.
